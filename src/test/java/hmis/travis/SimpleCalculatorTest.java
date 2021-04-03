@@ -1,11 +1,7 @@
 package hmis.travis;
 
-import java.util.*;
-
 import static org.junit.Assert.*;
 import org.junit.*;
-
-import hmis.travis.SimpleCalculator;
 
 public class SimpleCalculatorTest {
 	@Test
@@ -21,15 +17,10 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMul() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.mul(3, 5), 14);
+		assertEquals(calc.mul(3, 5), 15);
 	}
 	@Test
 	public void testDiv() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.div(8, 2), 4);
-	}
-	@Test
-	public void testEcuacion() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.div(8, 2), 4);
 	}
