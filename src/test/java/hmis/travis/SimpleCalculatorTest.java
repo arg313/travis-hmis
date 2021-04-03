@@ -7,7 +7,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.add(1, 0), 1);
+		assertEquals(calc.add(1, 0), 2);
 	}
 	@Test
 	public void testSub() {
