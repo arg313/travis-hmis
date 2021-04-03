@@ -1,9 +1,11 @@
-package io.github.joaomlneto.travis_ci_tutorial_java;
+package hmis.travis;
 
 import java.util.*;
 
 import static org.junit.Assert.*;
 import org.junit.*;
+
+import hmis.travis.SimpleCalculator;
 
 public class SimpleCalculatorTest {
 	@Test
