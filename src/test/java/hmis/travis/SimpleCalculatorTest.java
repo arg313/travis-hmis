@@ -28,7 +28,7 @@ public class SimpleCalculatorTest {
 	public void testDivZero() {
 		try{
 			SimpleCalculator calc = new SimpleCalculator();
-			assert.fail();
+			fail();
 		} catch (RuntimeException e) {
 		}
 	}
