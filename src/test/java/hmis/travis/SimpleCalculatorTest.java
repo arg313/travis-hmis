@@ -7,7 +7,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.add(1, 1), 3);
+		assertEquals(calc.add(1, 1), 2);
 	}
 	@Test
 	public void testSub() {
@@ -22,6 +22,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testDiv() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.div(8, 2), 3);
+		assertEquals(calc.div(8, 2), 4);
 	}
 }
