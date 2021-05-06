@@ -7,7 +7,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.add(1, 1), 3);
+		assertEquals(calc.add(1, 1), 2);
 	}
 	@Test
 	public void testSub() {
@@ -23,5 +23,13 @@ public class SimpleCalculatorTest {
 	public void testDiv() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.div(8, 2), 4);
+	}
+	@Test
+	public void testDivZero() {
+		try{
+			SimpleCalculator calc = new SimpleCalculator();
+			assert.fail();
+		} catch (RuntimeException e) {
+		}
 	}
 }
