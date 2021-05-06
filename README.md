@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/joaomlneto/travis-ci-tutorial-java.svg?branch=master)](https://travis-ci.com/joaomlneto/travis-ci-tutorial-java)
+[![Build Status](https://www.travis-ci.com/arg313/travis-hmis.svg?token=1jEEcJ7QNLtHzbqqzAuh&branch=master)](https://www.travis-ci.com/arg313/travis-hmis)
 [![Code Coverage](https://codecov.io/github/joaomlneto/travis-ci-tutorial-java/coverage.svg)](https://codecov.io/gh/joaomlneto/travis-ci-tutorial-java)
 
 # travis-ci-tutorial-java
