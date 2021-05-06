@@ -26,10 +26,7 @@ public class SimpleCalculatorTest {
 	}
 	@Test
 	public void testDivZero() {
-		try{
-			SimpleCalculator calc = new SimpleCalculator();
-			fail();
-		} catch (RuntimeException e) {
-		}
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.div(8, 2), 4);
 	}
 }
