@@ -24,4 +24,9 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.div(8, 2), 4);
 	}
+	@Test
+	public void testDivZero() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.div(8, 2), 4);
+	}
 }
